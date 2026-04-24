@@ -1,8 +1,8 @@
 // program that find the area . Formula: pi * r * r
 import 'dart:io';
+import 'dart:math';
 double areaOfCircle(double radios)
 {
-  double pi=3.142;
   return (pi*radios*radios);
 }
 void main()
