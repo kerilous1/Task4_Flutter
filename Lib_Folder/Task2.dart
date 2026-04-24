@@ -6,7 +6,7 @@ String randomPassword(int length)
   String choice="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#\$%^&*";
   String password='';
   Random  random=Random();
-  for(int i=0;i<=length;i++)
+  for(int i=0;i<length;i++)
   {
     password+=choice[random.nextInt(choice.length)];
   }
